@@ -29,6 +29,7 @@ This Documentation include 5 parts:
   - Delete all files and folder in the project directory **_except these following files and folder:_**
     - `lib` folder (contains the source code of the project)
     - `pubspec.yaml` file (contains information about the project)
+    - `assets` folder (contains static resources of the project)
     - `README.md` 
     - `.gitignore`
   - Folder and project name **MUST NOT CONTAIN ANY DASH ` - `**
