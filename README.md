@@ -11,6 +11,7 @@ This Documentation include 5 parts:
 
   
 # 1. Learning materials for this repository
+  - [Notion notes](https://www.notion.so/Flutter-6f2dbc7f48b8409b9e635d65cf4e20d5) for learning
   - [Flutter Documentation](https://flutter.dev/docs) for Developer
   - [Flutter Third-Party](https://pub.dev/) packages and Documentation
   - Series [Dart and Flutter for Mobile Development on Udemy](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
