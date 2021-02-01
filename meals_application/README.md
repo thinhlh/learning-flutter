@@ -1,6 +1,7 @@
-# personal_expense
+# meals_application
 
-A new Flutter project for learning how to use carious types of widgets and passing data through properties and construtors.
+A new Flutter project for learning navigation application and how to pass data between them.
+There is an attached Useful resource & link.html in the same folder
 
 ## Getting Started
 

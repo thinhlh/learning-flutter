@@ -18,6 +18,7 @@ This Documentation include 5 parts:
 # 2. List of Projects
   - Quiz Application
   - Personal Expense
+  - Meal Application
   
 # 3. Cloning, initializing and running project
   - Clone the project to the local
