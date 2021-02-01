@@ -17,9 +17,9 @@ This Documentation include 5 parts:
   - Series [Dart and Flutter for Mobile Development on Udemy](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
   
 # 2. List of Projects
-  - Quiz Application
-  - Personal Expense
-  - Meal Application
+  - [Quiz Application](./quiz_application)
+  - [Personal Expense](./personal_expense)
+  - [Meal Application](./meal_application)
   
 # 3. Cloning, initializing and running project
   - Clone the project to the local
