@@ -40,4 +40,4 @@ This Documentation include 5 parts:
 # 5. Commit rules
   - Commit to the right folder
   - Commit message must be clear
-  - Update README.md if the repository has new project
+  - Update `README.md` if the repository has new project
