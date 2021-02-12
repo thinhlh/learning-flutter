@@ -20,6 +20,7 @@ This Documentation include 5 parts:
   - [Quiz Application](./quiz_application)
   - [Personal Expense](./personal_expense)
   - [Meal Application](./meals_application)
+  - [Shop Application](./shop_application)
   
 # 3. Cloning, initializing and running project
   - Clone the project to the local
