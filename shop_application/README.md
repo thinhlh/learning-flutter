@@ -1,6 +1,6 @@
 # shop_application
 
-A new Flutter project.
+A Shooping Apllicaition for Learning State Managment
 
 ## Getting Started
 
