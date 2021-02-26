@@ -1,9 +1,8 @@
 import 'package:flutter/foundation.dart';
 
 class CartItem {
-
   /// The id of the cartItem in the cart
-  final String id; 
+  final String id;
 
   /// The title of product
   final String title;

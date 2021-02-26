@@ -5,21 +5,44 @@ import '../providers/cart.dart';
 import '../providers/cart.dart' as ci;
 
 class CartItem extends StatelessWidget {
-  
   /// An instance of an item in Cart
   final ci.CartItem cart;
 
   /// The id of the item in Cart, this is NOT the productId
   final String cartId;
 
-  CartItem(this.cart,this.cartId);
+  CartItem(this.cart, this.cartId);
 
   @override
   Widget build(BuildContext context) {
     return Dismissible(
       key: ValueKey(cart.id),
       direction: DismissDirection.endToStart,
-      onDismissed: (_) => Provider.of<Cart>(context,listen: false).removeItem(cartId),
+      onDismissed: (_) =>
+          Provider.of<Cart>(context, listen: false).removeItem(cartId),
+      confirmDismiss: (action) {
+        return showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text('Are you sure?'),
+            content: Text('Do you want to remove the item from the cart?'),
+            actions: [
+              FlatButton(
+                onPressed: () {
+                  Navigator.of(context).pop(false);
+                },
+                child: Text('No'),
+              ),
+              FlatButton(
+                onPressed: () {
+                  Navigator.of(context).pop(true);
+                },
+                child: Text('Yes'),
+              )
+            ],
+          ),
+        );
+      },
       background: Container(
         color: Theme.of(context).errorColor,
         child: Icon(

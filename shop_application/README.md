@@ -1,6 +1,6 @@
 # shop_application
 
-A Shooping Apllicaition for Learning State Managment
+A Shooping Apllicaition for Learning State Managment, Http requests
 
 ## Getting Started
 

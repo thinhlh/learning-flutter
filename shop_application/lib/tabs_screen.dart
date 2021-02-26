@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './screens/user_products_screen.dart';
 import 'screens/orders_screen.dart';
 import 'screens/product_overview_screen.dart';
 
@@ -17,7 +18,8 @@ class _TabScreenState extends State<TabScreen> {
   void initState() {
     _pages = [
       {'screen': ProductOverviewScreen(), 'label': 'Aesthetic Shop'},
-      {'screen': OrdersScreen(), 'label': 'Orders'}
+      {'screen': OrdersScreen(), 'label': 'Orders'},
+      {'screen': UserProductsScreen(), 'label': 'User Products'},
     ];
     super.initState();
   }
@@ -43,7 +45,11 @@ class _TabScreenState extends State<TabScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart_outlined),
             label: 'Orders',
-          )
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.edit_outlined),
+            label: 'Manage Products',
+          ),
         ],
       ),
       body: _pages[_selectedPageIndex]['screen'],
